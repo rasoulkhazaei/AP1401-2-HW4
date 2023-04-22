@@ -389,9 +389,9 @@ private:
 ﮐﻨﯿﺪ ﮐﻔﺎﯾﺖ ﺧﻮاﻫﺪ ﮐﺮد. در راﺑﻄﻪ ﺑﺎ css ﻫﻤﺎﻧﻄﻮر ﮐﻪ ﺑﯿﺎن ﺷﺪ ﺗﻮﺿﯿﺢ ﺑﻼک ﻫﺎ اﺟﺒﺎری ﻣﯽ ﺑﺎﺷﺪ. ﺑﻪ ﻃﻮر ﻣﺜﺎل اﯾﻦ ﺑﻼک ﻗﺼﺪ دارد ﻋﮑﺲ ﭘﺲ زﻣﯿﻨﻪ ﺑﺎ ﮐﻪ ﺑﺎ background# ﻣﺸﺨﺺ ﺷﺪه اﺳﺖ را در ﺗﻤﺎم ﺻﺤﻔﻪ ﻧﻤﺎﯾﺶ داده و در وﺳﻂ ﻗﺮار
 دﻫﺪ.
 
-<center>
+<p align="center">
     <img src="resorces/../resources/Aspose.Words.5beb3cff-3782-42d9-88c8-ba0a913d156f.006.png" />
-</center>
+</p>
 
 #
 - All of your cpp files and dfolders should be in the cpp folder and the front-end files should be in the front folder.
