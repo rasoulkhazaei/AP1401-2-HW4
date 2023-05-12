@@ -1,0 +1,252 @@
+/* import Google font */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    /* remove default padding and maring of elements */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* make box-sizing into border-box for make padding and margin calculate in width and height */
+}
+
+/* === RESET DEAFULT BEHAVIOR OF UL, A, H1 */
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: aquamarine;
+    border-bottom: 1px solid #ededed;
+}
+
+/* RESET DEAFULT BEHAVIOR OF UL, A, H1 === */
+
+/* make body to dont scroll */
+body {
+    font-family: "Staatliches", cursive;
+    overflow: hidden;
+}
+
+/* make img background to cover all the page */
+.background__img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* img now has 100% of his parent */
+.background__img img {
+    position: fixed;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* this property is for if img size changes, it maintains its ratio */
+    object-position: center;
+    /* if img resize, it shows the middle */
+    filter: contrast(1.5);
+}
+
+/* MAIN CONTAINER */
+.main {
+    position: relative;
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Change the default scroll style */
+
+.main::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px;
+}
+
+.main::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+/* Change the default scroll style */
+
+
+/* style h1 for pages */
+
+.main h1 {
+    text-align: center;
+    color: #000;
+    background-color: #ededed;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+/* MOVIES LIST */
+
+.movies__list {
+    margin-top: 2rem;
+}
+
+/*  make movie info and titles info div info 80% width  */
+.movie__info,
+.titles__info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+/* MOVIE ITEM */
+.movie {
+    display: flex;
+    justify-content: space-between;
+    /* make the extend space into middle */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.movie__link {
+    color: palegoldenrod;
+}
+
+/* TITLES NAVBAR */
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom: 1px solid #fff;
+}
+
+.titles span {
+    font-size: 2.5rem;
+}
+
+.titles span,
+.movie span,
+.movie a {
+    text-align: center;
+}
+
+.titles__info,
+.movie__info {
+    width: 80%;
+}
+
+.titles__info span:nth-child(1),
+.movie__info span:nth-child(1) {
+    width: 40%;
+    /* title has 40% of width */
+}
+
+.titles__info span:nth-child(2),
+.movie__info span:nth-child(2) {
+    width: 10%;
+    /* Episode number has 10% of width */
+}
+
+.titles__info span:nth-child(3),
+.movie__info span:nth-child(3) {
+    width: 40%;
+    /* created time has 40% of width */
+}
+
+.movie a,
+.titles>span {
+    width: 20%;
+    /* starships link has 20% of width */
+}
+
+/* SHEEP DATA SECTION */
+
+.sheep-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* make the deatail and name of sheeps has 50% width */
+}
+
+.starsheeps h2 {
+    width: max-content;
+    margin-bottom: 2rem;
+}
+
+.sheep__names {
+    display: flex;
+    flex-direction: column;
+}
+
+.sheep__name {
+    display: inline-block;
+    width: max-content;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.sheep__name:hover {
+    color: rgb(36, 131, 255);
+}
+
+.h2-detail {
+    color: rgb(255, 176, 29);
+}
+
+.detail__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    color: rgb(90, 236, 255);
+}
+
+/* if the elment need more width it shows like ... */
+.detail__item-data {
+    width: 100%;
+    margin-left: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    color: rgb(230, 90, 255);
+}
+
+/* back to movies Button */
+.back__tomovies {
+    position: fixed;
+    bottom: 3rem;
+    cursor: pointer;
+    border: 1px solid rgb(230, 90, 255);
+    border-radius: 4px;
+    font-family: "Poppins";
+    color: rgb(230, 90, 255);
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+}

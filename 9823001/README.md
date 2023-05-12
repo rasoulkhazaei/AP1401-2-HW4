@@ -1,4 +1,7 @@
-﻿# 1. cpp
+# Advanced Programming - HW4
+<p  align="center"> <b>Homework 4 - Spring 2023 Semester <br> Deadline: Wednesday Ordibehesht 13st - 11:59 pm</b> </p>
+
+# 1. cpp
 The purpose of this homework is to design a banking system. There are two `.h` files, one for **account** information and one for **banking system**.
 
 ## account.h
@@ -389,14 +392,14 @@ private:
 ﮐﻨﯿﺪ ﮐﻔﺎﯾﺖ ﺧﻮاﻫﺪ ﮐﺮد. در راﺑﻄﻪ ﺑﺎ css ﻫﻤﺎﻧﻄﻮر ﮐﻪ ﺑﯿﺎن ﺷﺪ ﺗﻮﺿﯿﺢ ﺑﻼک ﻫﺎ اﺟﺒﺎری ﻣﯽ ﺑﺎﺷﺪ. ﺑﻪ ﻃﻮر ﻣﺜﺎل اﯾﻦ ﺑﻼک ﻗﺼﺪ دارد ﻋﮑﺲ ﭘﺲ زﻣﯿﻨﻪ ﺑﺎ ﮐﻪ ﺑﺎ background# ﻣﺸﺨﺺ ﺷﺪه اﺳﺖ را در ﺗﻤﺎم ﺻﺤﻔﻪ ﻧﻤﺎﯾﺶ داده و در وﺳﻂ ﻗﺮار
 دﻫﺪ.
 
-<p align="center">
+<center>
     <img src="resorces/../resources/Aspose.Words.5beb3cff-3782-42d9-88c8-ba0a913d156f.006.png" />
-</p>
+</center>
 
 #
 - All of your cpp files and dfolders should be in the cpp folder and the front-end files should be in the front folder.
 - Send assignments to my email address before the deadline.
 - After the deadline, the assignment will push to the repository. in the students number folder. (example: 12345678)
-- create a pull request to the repository.(after deadline)
+- create a pull request to the repository.
 
 <h2 align="center"> Good Luck </h2>
